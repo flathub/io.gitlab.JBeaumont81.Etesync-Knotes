@@ -62,6 +62,6 @@ modules:
       - install -Dm0644 app/share/metainfo/io.gitlab.JBeaumont81.Etesync-Knotes.metainfo.xml ${FLATPAK_DEST}/share/metainfo/${FLATPAK_ID}.metainfo.xml
     sources:
       - type: git
-        url: https://gitlab.com/JBeaumont81/Etesync-Knotes.git
-        tag: v1.1
-        commit: ba3a6639402c9c2c695e47e0933d87fc439e1817
+        url: https://git.code.sf.net/p/etesync-knotes/code
+        tag: v1.2
+        commit: 91e49127e8973efffd7682153241a34842166407
