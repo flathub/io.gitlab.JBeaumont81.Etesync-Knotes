@@ -63,6 +63,6 @@ modules:
     sources:
       - type: git
         url: https://git.code.sf.net/p/etesync-knotes/code
-        tag: v1.2
-        commit: deaa63b361bd9ae2d1110afca88073249bf8de35
+        tag: v1.3
+        commit: 88711051e3cd744cce401fdae73fe25d802ab406
         
