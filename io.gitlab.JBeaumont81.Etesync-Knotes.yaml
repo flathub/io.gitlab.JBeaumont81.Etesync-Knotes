@@ -44,6 +44,9 @@ modules:
       - -Dmanpage=false
       - -Dvapi=false
       - -Dintrospection=false
+    cleanup:
+      - /include
+      - /lib/pkgconfig
     sources:
       - type: git
         url: https://gitlab.gnome.org/GNOME/libsecret.git
