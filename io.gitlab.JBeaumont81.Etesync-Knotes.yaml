@@ -52,16 +52,10 @@ modules:
 
   - name: etesync-knotes
     buildsystem: cmake-ninja
-    no-make-install: true
     config-opts:
       - -DCMAKE_BUILD_TYPE=Release
-    post-install:
-      - install -Dm755 etesync-knotes "${FLATPAK_DEST}/bin/etesync-knotes"
-      - install -Dm644 desktop/etesync-knotes.desktop "${FLATPAK_DEST}/share/applications/etesync-knotes.desktop"
-      - install -Dm644 icons/etesync-knotes.svg "${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/etesync-knotes.svg"
-      - install -Dm0644 app/share/metainfo/io.gitlab.JBeaumont81.Etesync-Knotes.metainfo.xml ${FLATPAK_DEST}/share/metainfo/${FLATPAK_ID}.metainfo.xml
     sources:
       - type: git
         url: https://codeberg.org/Josselin_Beaumont/Etesync-Knotes.git
-        tag: v1.4
-        commit: 03191d4c6f58d5f62e8ed5bfa30a0cdf5ca7ddc9
+        tag: v2.0
+        commit: 753a1e26f02b224e57117acd8253f677a7c74f34
