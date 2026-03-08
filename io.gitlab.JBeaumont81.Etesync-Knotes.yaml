@@ -57,5 +57,5 @@ modules:
     sources:
       - type: git
         url: https://codeberg.org/Josselin_Beaumont/Etesync-Knotes.git
-        tag: v2.0
-        commit: 753a1e26f02b224e57117acd8253f677a7c74f34
+        tag: v3.0
+        commit: dfaa478cc92ab33cbb82da479cbb0b7e00fad8f3
